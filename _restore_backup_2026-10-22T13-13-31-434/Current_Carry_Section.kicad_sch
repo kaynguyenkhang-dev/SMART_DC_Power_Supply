@@ -1,0 +1,712 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9d8befdc-ef6d-42db-8834-275dd1b4e9c6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 185.42 97.155)
+		(size 37.465 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "27170fc9-7a78-4bc9-af4c-11d0784b52f0")
+		(property "Sheetname" "Current_Carry_45"
+			(at 185.42 96.4434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 185.42 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vout_LDO_2" output
+			(at 222.885 118.745 0)
+			(uuid "bb15ea0b-0900-42ee-a539-9a118f701815")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A2_Digipot" input
+			(at 185.42 119.38 180)
+			(uuid "8be663f3-4063-47aa-951d-4b30f0f79be2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout_LDO_1" output
+			(at 222.885 105.41 0)
+			(uuid "d5090d7f-b471-4201-b0b3-48e769a6c04a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_LDO_1" input
+			(at 185.42 99.06 180)
+			(uuid "dfa310de-f3d6-4572-9e45-0218dd974017")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 185.42 101.6 180)
+			(uuid "6230bf03-950b-4608-bf90-a7c87a69f084")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_Digipot" input
+			(at 185.42 116.84 180)
+			(uuid "06b67ac6-dec9-4c7d-8101-9b134d8fd52f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vss_Digipot" input
+			(at 185.42 111.76 180)
+			(uuid "8e23883f-6d1f-4f74-9b7b-6d37af85c534")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_Digipot" input
+			(at 185.42 121.92 180)
+			(uuid "f48932fc-8115-489b-8b9e-cb2907e2ef0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_Digipot" input
+			(at 185.42 114.3 180)
+			(uuid "1045dea0-b66a-47d6-9f0b-2ce8d6fc5eb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_Digipot" input
+			(at 185.42 124.46 180)
+			(uuid "dac853aa-27e7-4f4e-ab08-da30581bfdeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin_LDO_2" input
+			(at 185.42 104.14 180)
+			(uuid "eb8d7093-acd1-4459-8b1d-392391df44cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 185.42 106.68 180)
+			(uuid "183a226d-051b-4817-aa8a-60b94426ed42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vdd_Digipot" input
+			(at 185.42 109.22 180)
+			(uuid "847114a7-f26b-4e70-8cd9-605b757b834c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 133.35)
+		(size 37.465 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "450bd351-64b7-4dec-a626-4181055cf0ad")
+		(property "Sheetname" "Current_Carry_67"
+			(at 185.42 132.6384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 185.42 162.5096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vout_LDO_2" output
+			(at 222.885 154.94 0)
+			(uuid "a0c2f928-cce8-45ff-8c3b-5a0f3f5cedec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A2_Digipot" input
+			(at 185.42 155.575 180)
+			(uuid "03a31939-bfe8-4bc0-8a8f-42a6390deaaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout_LDO_1" output
+			(at 222.885 141.605 0)
+			(uuid "959bd8df-3f90-4d7e-a249-546475c880fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_LDO_1" input
+			(at 185.42 135.255 180)
+			(uuid "d285c094-0364-4d00-9e35-c36b970b047c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 185.42 137.795 180)
+			(uuid "39927339-9aa8-4fd7-9a91-2236a3ddc6f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_Digipot" input
+			(at 185.42 153.035 180)
+			(uuid "a78ae123-aa1b-43e3-bf74-5c55ff95f342")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vss_Digipot" input
+			(at 185.42 147.955 180)
+			(uuid "b84a48b0-e9a4-408b-8fc7-b99326b5ebe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_Digipot" input
+			(at 185.42 158.115 180)
+			(uuid "653d7845-ed24-4d50-b919-fa3e7fcd054e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_Digipot" input
+			(at 185.42 150.495 180)
+			(uuid "3cbbb91c-a3c0-4e93-95c0-e83aed86017f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_Digipot" input
+			(at 185.42 160.655 180)
+			(uuid "566382f7-809b-4bfc-8f4c-6addacc2a4bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin_LDO_2" input
+			(at 185.42 140.335 180)
+			(uuid "b970f167-076b-4885-a5cd-ad8c2ee63f41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 185.42 142.875 180)
+			(uuid "e48a3410-df49-4c07-98e4-04f03609fe38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vdd_Digipot" input
+			(at 185.42 145.415 180)
+			(uuid "a2ba2baf-665f-4d71-9e5f-3e13ef9a50cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.055 24.13)
+		(size 37.465 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "e7eafe5d-d6c8-4052-9065-7cce852ae559")
+		(property "Sheetname" "Current_Carry_01"
+			(at 186.055 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 186.055 53.2896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vout_LDO_2" output
+			(at 223.52 45.72 0)
+			(uuid "76a89b0d-dbd2-4af1-bd8f-b7814ea7b9e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A2_Digipot" input
+			(at 186.055 46.355 180)
+			(uuid "4de5dc60-ffa4-4bef-b13f-4726b9e92cb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout_LDO_1" output
+			(at 223.52 32.385 0)
+			(uuid "11461c12-95c6-4219-b24d-6bd2ca046835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_LDO_1" input
+			(at 186.055 26.035 180)
+			(uuid "dbf5503e-d07b-4d6a-ab64-17181b85fec9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 186.055 28.575 180)
+			(uuid "79e03d3c-331b-4866-bf69-1b25f6e18e33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_Digipot" input
+			(at 186.055 43.815 180)
+			(uuid "079c9c47-c991-4439-8199-84176c4d63da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vss_Digipot" input
+			(at 186.055 38.735 180)
+			(uuid "badaecc1-3ec6-4819-94f3-40097f1f1e0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_Digipot" input
+			(at 186.055 48.895 180)
+			(uuid "b4610a2a-c022-43dc-a164-1c58099adcaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_Digipot" input
+			(at 186.055 41.275 180)
+			(uuid "b965f661-311a-4426-8600-781255ee27e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_Digipot" input
+			(at 186.055 51.435 180)
+			(uuid "686a8a13-1740-4fbe-8c3a-e46ab545aeb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin_LDO_2" input
+			(at 186.055 31.115 180)
+			(uuid "5bd64292-c24f-4be7-8564-020ac7aa5c9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 186.055 33.655 180)
+			(uuid "3145530e-6d49-47b9-a423-7ba8d3380174")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vdd_Digipot" input
+			(at 186.055 36.195 180)
+			(uuid "1cf6f16b-490c-4efb-b135-6784c633c204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 60.325)
+		(size 37.465 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "ec08fe8e-babb-4cf6-b401-883fdb42883f")
+		(property "Sheetname" "Current_Carry_23"
+			(at 185.42 59.6134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 185.42 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vout_LDO_2" output
+			(at 222.885 81.915 0)
+			(uuid "f8dbf3cb-9868-4764-a610-934347d93729")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A2_Digipot" input
+			(at 185.42 82.55 180)
+			(uuid "a7776b8d-d929-4e40-90c4-b302bd12d1e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout_LDO_1" output
+			(at 222.885 68.58 0)
+			(uuid "ef5bc1ab-7934-46bc-a901-16326bc0dca0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_LDO_1" input
+			(at 185.42 62.23 180)
+			(uuid "b3f6e953-636f-4c15-91dd-603723e8c6df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 185.42 64.77 180)
+			(uuid "56eb8452-35be-4485-a328-84334591ac63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_Digipot" input
+			(at 185.42 80.01 180)
+			(uuid "98fc61eb-f836-45c1-ac7f-fe0959cc9e79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vss_Digipot" input
+			(at 185.42 74.93 180)
+			(uuid "a46c1423-88d9-4ed1-8dd3-592a9f97046f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_Digipot" input
+			(at 185.42 85.09 180)
+			(uuid "17a58b0b-bf24-46ef-83dc-949948523c27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_Digipot" input
+			(at 185.42 77.47 180)
+			(uuid "2b985230-dd73-4f96-bb24-927b3a748951")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_Digipot" input
+			(at 185.42 87.63 180)
+			(uuid "8a57c4dc-aa83-46f6-b2be-eb4dad762719")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin_LDO_2" input
+			(at 185.42 67.31 180)
+			(uuid "26fba249-9fab-4b4f-a187-8acf1d7811a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 185.42 69.85 180)
+			(uuid "bb326941-b089-4fd4-a703-2de7206b611d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vdd_Digipot" input
+			(at 185.42 72.39 180)
+			(uuid "1846d9d0-e0a7-456b-960e-045146c8b8bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "3")
+				)
+			)
+		)
+	)
+)

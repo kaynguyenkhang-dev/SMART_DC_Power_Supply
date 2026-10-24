@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Adjustable Low-Dropout Regulator") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_ADP7104ARDZ-R7/KiCADv6/2026-10-22_15-54-15.kicad_sym") (options "") (descr ""))
+	(lib (name "Fixed 500mA 3.3V Low-Dropout Regulator") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_ADP7105ARDZ-3-3-R7/KiCADv6/2026-10-22_16-18-34.kicad_sym") (options "") (descr ""))
+	(lib (name "Fixed 150mA Low-Dropout Regulator") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_ADP150AUJZ-3-3-R7/KiCADv6/2026-10-22_16-17-12.kicad_sym") (options "") (descr ""))
+	(lib (name "eFuse for electronic") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_TPS259620DDAR/KiCADv6/2026-10-22_16-19-23.kicad_sym") (options "") (descr ""))
+	(lib (name "Tiny 8-bit shift register") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_MC74HC595ADTR2G/KiCADv6/2026-10-22_16-26-20.kicad_sym") (options "") (descr ""))
+	(lib (name "Digital Potentiometer") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_TPL0102-100PWR/KiCADv6/2026-10-22_16-07-00.kicad_sym") (options "") (descr ""))
+	(lib (name "I2C Multiplexor") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_PCA9540BD-118/KiCADv6/2026-10-22_16-38-15.kicad_sym") (options "") (descr ""))
+)

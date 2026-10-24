@@ -1,0 +1,1941 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9d8befdc-ef6d-42db-8834-275dd1b4e9c6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Tiny 8-bit shift register:MC74HC595ADTR2G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 27.94 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MC74HC595ADTR2G"
+				(at 27.94 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "TSSOP-16_ONS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "MC74HC595ADTR2G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MC74HC595ADTR2G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP-16_ONS TSSOP-16_ONS-M TSSOP-16_ONS-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MC74HC595ADTR2G_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -22.86) (xy 48.26 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -22.86) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 0 0)
+					(length 7.62)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -17.78 180)
+					(length 7.62)
+					(name "SQH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -15.24 180)
+					(length 7.62)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -12.7 180)
+					(length 7.62)
+					(name "SHIFTCLOCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -10.16 180)
+					(length 7.62)
+					(name "LATCHCLOCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "OUTPUTENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Tiny 8-bit shift register:MC74HC595ADTR2G")
+		(at 93.98 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ef3c2ad-a62d-4721-9152-2702c5359b4c")
+		(property "Reference" "U1"
+			(at 66.04 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MC74HC595ADTR2G"
+			(at 66.04 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TSSOP-16_ONS"
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "MC74HC595ADTR2G"
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f876268-20ec-4637-9cb6-13e68c5a4838")
+		)
+		(pin "6"
+			(uuid "d04ed3ca-315e-46fe-9bfc-cd70bf004475")
+		)
+		(pin "1"
+			(uuid "9463d2cf-b012-497b-a2d5-aae3acfecfc3")
+		)
+		(pin "3"
+			(uuid "fbe0dc7f-e305-421c-a5bc-baaaf0af5186")
+		)
+		(pin "4"
+			(uuid "5c46e61c-5335-4c66-b2af-59c04583560f")
+		)
+		(pin "5"
+			(uuid "b0fc0bf4-af7a-4b46-85fb-76dffb3470fd")
+		)
+		(pin "7"
+			(uuid "c0bbf213-ab6e-4a1a-8cb4-69e5e83540e5")
+		)
+		(pin "11"
+			(uuid "4052af19-16c0-48b5-ad67-f35bf896e2bc")
+		)
+		(pin "10"
+			(uuid "0d76cab3-6f83-4771-b8e8-fae0e0ce912c")
+		)
+		(pin "12"
+			(uuid "e86e7108-0513-4bfd-98fc-33dbb870f03d")
+		)
+		(pin "9"
+			(uuid "5475c126-88bb-45dd-adc6-92a0088175ee")
+		)
+		(pin "13"
+			(uuid "cdbfe7fd-8677-49eb-8e78-a63bd2fe632c")
+		)
+		(pin "14"
+			(uuid "c29d9176-b83e-4972-8ff4-91bc77c8cf9c")
+		)
+		(pin "15"
+			(uuid "76e6a8cd-6ecd-489d-a9b0-218d67b835e1")
+		)
+		(pin "8"
+			(uuid "fbb4e14d-4f8c-45b5-bace-868257c9e19d")
+		)
+		(pin "16"
+			(uuid "ca253df2-b576-4fe1-b119-5ea1c96cc128")
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 139.7)
+		(size 31.75 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "1afa4434-75c8-45b0-a1aa-2fbc7320955f")
+		(property "Sheetname" "Current_Carry_Pair_3"
+			(at 133.35 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 133.35 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PG_LDO_1" input
+			(at 133.35 148.59 180)
+			(uuid "4825f8d5-cc89-4bc6-81e3-f4dc876cb046")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 133.35 146.05 180)
+			(uuid "2d81a98a-dae6-44ba-a05c-91866f4044bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_1" input
+			(at 133.35 143.51 180)
+			(uuid "e6eab47f-9d62-40b6-83d0-2ed97a70ce59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_DIGIPOT" input
+			(at 133.35 176.53 180)
+			(uuid "3af7b9b9-7f83-423d-8b95-61251f982f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 133.35 154.94 180)
+			(uuid "09dcd481-a0bc-42ed-8303-1b0925bb9c1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_DIGIPOT" input
+			(at 133.35 179.07 180)
+			(uuid "bc83b91a-11a6-4569-a125-89fb0842a0da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DIGIPOT" input
+			(at 133.35 161.29 180)
+			(uuid "285bcca2-b994-414b-bd33-2ba57a2420a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS_DIGIPOT" input
+			(at 133.35 163.83 180)
+			(uuid "e7e12b22-f8f9-4d04-b1a6-4e6426c513c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_DIGIPOT" input
+			(at 133.35 172.72 180)
+			(uuid "9d6b0157-128d-493c-a46a-2f2753298b49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_LDO_2" input
+			(at 133.35 157.48 180)
+			(uuid "086f3412-1d6c-40f9-8655-73302f492abe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_DIGIPOT" input
+			(at 133.35 170.18 180)
+			(uuid "3de4d54b-4ce3-4787-bfb1-d3d7545e5f8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2_DIGIPOT" input
+			(at 133.35 167.64 180)
+			(uuid "04469791-018e-4568-867b-4261dc93098e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_2" input
+			(at 133.35 152.4 180)
+			(uuid "c28f734c-68c7-48e8-af0e-227ad17f4c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_LDO_2" output
+			(at 165.1 154.94 0)
+			(uuid "e3fc7f99-f1f4-480e-bac9-b2261cae9cc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_LDO_1" output
+			(at 165.1 146.05 0)
+			(uuid "76e55556-2a69-4a47-bece-94c527d47039")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 21.59)
+		(size 31.75 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "247bbf6b-e029-4fb4-9bf1-f093de00e38e")
+		(property "Sheetname" "Current_Carry_Pair_4"
+			(at 190.5 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 190.5 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PG_LDO_1" input
+			(at 190.5 30.48 180)
+			(uuid "d3bede81-aed7-4c1a-8a45-88cf25f0433e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 190.5 27.94 180)
+			(uuid "2a598d3f-e854-466a-9056-00031a664326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_1" input
+			(at 190.5 25.4 180)
+			(uuid "a90c50e8-660f-4f07-bcb2-882e94f2ab49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_DIGIPOT" input
+			(at 190.5 58.42 180)
+			(uuid "7ae9b484-458e-434c-8538-7da0000ac0d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 190.5 36.83 180)
+			(uuid "d7bb512c-ccb3-402b-a76d-bb3ec29d3d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_DIGIPOT" input
+			(at 190.5 60.96 180)
+			(uuid "b19fc926-a5af-46e3-8810-ecbe3cde7aef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DIGIPOT" input
+			(at 190.5 43.18 180)
+			(uuid "1c679284-8c24-4f9a-b284-cc54f81d7b2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS_DIGIPOT" input
+			(at 190.5 45.72 180)
+			(uuid "7e6de3cf-8556-494b-bee8-947135f3b61b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_DIGIPOT" input
+			(at 190.5 54.61 180)
+			(uuid "a8065a5f-d3af-4825-b949-16a92fb416eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_LDO_2" input
+			(at 190.5 39.37 180)
+			(uuid "b42e6902-0d9f-491d-b200-7724c81e245b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_DIGIPOT" input
+			(at 190.5 52.07 180)
+			(uuid "3c6e0a3f-7124-408d-9d2f-e977a51e43ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2_DIGIPOT" input
+			(at 190.5 49.53 180)
+			(uuid "f79b011f-f348-4c8d-8f99-370c8cbe51a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_2" input
+			(at 190.5 34.29 180)
+			(uuid "c2bee741-dcf9-4939-b36c-992284d419ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_LDO_2" output
+			(at 222.25 36.83 0)
+			(uuid "d66d7dde-7849-4fb4-8ab2-7a8eb53faeaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_LDO_1" output
+			(at 222.25 27.94 0)
+			(uuid "9f64260f-b24f-43c9-90bb-6132c5f92c47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 21.59)
+		(size 31.75 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "7d7468ae-a6f4-446a-97b7-231f7e64a4e3")
+		(property "Sheetname" "Current_Carry_Pair_6"
+			(at 243.84 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 243.84 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PG_LDO_1" input
+			(at 243.84 30.48 180)
+			(uuid "b9e9474e-31fd-4155-9a0e-d8d3b56c88a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 243.84 27.94 180)
+			(uuid "88a02506-93f9-481e-aa29-f97f1569c89f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_1" input
+			(at 243.84 25.4 180)
+			(uuid "82a97c43-dc1d-48f0-8829-3f63cab09a41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_DIGIPOT" input
+			(at 243.84 58.42 180)
+			(uuid "7d2a0d3b-9e9d-4897-a370-92d8be5e1595")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 243.84 36.83 180)
+			(uuid "ba92c4af-df62-4f22-90cf-a4a8aa4d4e3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_DIGIPOT" input
+			(at 243.84 60.96 180)
+			(uuid "e3fbcc98-41bd-42c1-b6c6-a1c2a85fccb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DIGIPOT" input
+			(at 243.84 43.18 180)
+			(uuid "3e166bb3-add1-4b53-b832-463bb896629a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS_DIGIPOT" input
+			(at 243.84 45.72 180)
+			(uuid "f8f45c53-f16d-4ed3-a56f-3ae12ae89427")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_DIGIPOT" input
+			(at 243.84 54.61 180)
+			(uuid "621b1e0c-7913-47d3-ad8f-a1978e4605cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_LDO_2" input
+			(at 243.84 39.37 180)
+			(uuid "89836b36-df42-4cba-a257-2f505521b7df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_DIGIPOT" input
+			(at 243.84 52.07 180)
+			(uuid "0ac6ac7c-0e7b-428c-bc2c-275a37fb1189")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2_DIGIPOT" input
+			(at 243.84 49.53 180)
+			(uuid "efe278b6-de15-472c-ad1f-d5a5677c2d7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_2" input
+			(at 243.84 34.29 180)
+			(uuid "a67d73cd-6c04-4928-b83f-3193641572d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_LDO_2" output
+			(at 275.59 36.83 0)
+			(uuid "f47ee39b-5269-4b21-b768-1f065a3c72c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_LDO_1" output
+			(at 275.59 27.94 0)
+			(uuid "9a0b27b0-d901-4170-8f68-43fe29d1380f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 80.01)
+		(size 31.75 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "840fa048-092f-42ca-97ec-62e271f9fa46")
+		(property "Sheetname" "Current_Carry_Pair_5"
+			(at 190.5 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 190.5 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PG_LDO_1" input
+			(at 190.5 88.9 180)
+			(uuid "2cb7c5ba-9f64-4043-81e0-a41094f7046e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 190.5 86.36 180)
+			(uuid "5772b74a-8614-42c3-8d62-bd5c66aaefc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_1" input
+			(at 190.5 83.82 180)
+			(uuid "adc3c95c-ffa5-4308-b224-a36a1f740e8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_DIGIPOT" input
+			(at 190.5 116.84 180)
+			(uuid "c271da0c-b7e4-4e58-b0ad-4887fc3aadb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 190.5 95.25 180)
+			(uuid "708bb0eb-c154-4b25-a5d3-5145e52e5d56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_DIGIPOT" input
+			(at 190.5 119.38 180)
+			(uuid "aa934647-4ed2-44b6-b730-48c37917584e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DIGIPOT" input
+			(at 190.5 101.6 180)
+			(uuid "401c55ed-ac94-4ace-bedc-1b5e6bfb276f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS_DIGIPOT" input
+			(at 190.5 104.14 180)
+			(uuid "d92cbc5d-0013-463c-928a-1f2d109796f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_DIGIPOT" input
+			(at 190.5 113.03 180)
+			(uuid "f714b58f-05fc-4101-83e3-add642048e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_LDO_2" input
+			(at 190.5 97.79 180)
+			(uuid "b14f6f90-dde7-4056-ba90-93c8c81222c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_DIGIPOT" input
+			(at 190.5 110.49 180)
+			(uuid "7713795d-5158-4238-9267-3338f387a98b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2_DIGIPOT" input
+			(at 190.5 107.95 180)
+			(uuid "e6f779ad-af86-4a03-b1e2-c105d79dbc3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_2" input
+			(at 190.5 92.71 180)
+			(uuid "d70cc3a5-ff1f-48e2-8625-9b05cdea47f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_LDO_2" output
+			(at 222.25 95.25 0)
+			(uuid "b7edca94-ed0f-488b-82f1-d54c39b46224")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_LDO_1" output
+			(at 222.25 86.36 0)
+			(uuid "18f10e93-40ec-4668-bfd2-2c76dc45182b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 81.28)
+		(size 31.75 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "a98e0607-cbfd-4765-aa9e-f9fe225b44a2")
+		(property "Sheetname" "Current_Carry_Pair_7"
+			(at 242.57 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 242.57 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PG_LDO_1" input
+			(at 242.57 90.17 180)
+			(uuid "6fa95aa1-5d02-4d93-8627-a826980fc261")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 242.57 87.63 180)
+			(uuid "f869c922-c054-4a0b-963a-ec71b58c256f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_1" input
+			(at 242.57 85.09 180)
+			(uuid "d083d6c2-9d26-4a8e-ad55-582d72b3f1ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_DIGIPOT" input
+			(at 242.57 118.11 180)
+			(uuid "2a38f3d9-04e7-4117-be60-09dc369c51c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 242.57 96.52 180)
+			(uuid "17154dce-067d-4593-a6ea-de99886fc664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_DIGIPOT" input
+			(at 242.57 120.65 180)
+			(uuid "f93e9cbf-e4de-427e-a710-c264b3c407e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DIGIPOT" input
+			(at 242.57 102.87 180)
+			(uuid "257ef3ea-aaf3-41ee-8129-72845e2e165c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS_DIGIPOT" input
+			(at 242.57 105.41 180)
+			(uuid "11373c67-66f3-4570-836b-52ecce1fda86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_DIGIPOT" input
+			(at 242.57 114.3 180)
+			(uuid "7d00d44e-34ae-4003-b634-671555d6f0cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_LDO_2" input
+			(at 242.57 99.06 180)
+			(uuid "6aee5260-9812-4b35-ac9e-351f7ff1a8d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_DIGIPOT" input
+			(at 242.57 111.76 180)
+			(uuid "92e3f647-382d-4d70-ae58-92b1191e7ea6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2_DIGIPOT" input
+			(at 242.57 109.22 180)
+			(uuid "a25ea36f-a8fc-4d94-9aa9-9079a140b7d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_2" input
+			(at 242.57 93.98 180)
+			(uuid "74cd7fc2-b8aa-4633-b5cb-67e0ff988e93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_LDO_2" output
+			(at 274.32 96.52 0)
+			(uuid "b2d337b1-6b0e-4532-a41e-3d028bfea375")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_LDO_1" output
+			(at 274.32 87.63 0)
+			(uuid "d9aacabf-d6e9-4269-81dc-b218e80a6016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 21.59)
+		(size 31.75 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "e7eafe5d-d6c8-4052-9065-7cce852ae559")
+		(property "Sheetname" "Current_Carry_Pair_01"
+			(at 133.35 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 133.35 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PG_LDO_1" input
+			(at 133.35 30.48 180)
+			(uuid "76a89b0d-dbd2-4af1-bd8f-b7814ea7b9e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 133.35 27.94 180)
+			(uuid "79e03d3c-331b-4866-bf69-1b25f6e18e33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_1" input
+			(at 133.35 25.4 180)
+			(uuid "079c9c47-c991-4439-8199-84176c4d63da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_DIGIPOT" input
+			(at 133.35 58.42 180)
+			(uuid "badaecc1-3ec6-4819-94f3-40097f1f1e0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 133.35 36.83 180)
+			(uuid "3145530e-6d49-47b9-a423-7ba8d3380174")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_DIGIPOT" input
+			(at 133.35 60.96 180)
+			(uuid "fda79b1a-fb0a-4021-b4fe-74f2078a7de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DIGIPOT" input
+			(at 133.35 43.18 180)
+			(uuid "0027aa7a-caf6-4e2c-a238-05c6887c65f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS_DIGIPOT" input
+			(at 133.35 45.72 180)
+			(uuid "a055ef1d-1daa-4058-9f8b-9b3635896889")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_DIGIPOT" input
+			(at 133.35 54.61 180)
+			(uuid "22abd13d-6fd2-4302-a9a0-009a7ab872bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_LDO_2" input
+			(at 133.35 39.37 180)
+			(uuid "b3222fbe-0a31-4b26-a102-6a3dd731c403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_DIGIPOT" input
+			(at 133.35 52.07 180)
+			(uuid "1aa2df1b-b9bb-406f-9118-fda59fe6bb2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2_DIGIPOT" input
+			(at 133.35 49.53 180)
+			(uuid "7df56291-3477-4111-bc77-55e25ac034c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_2" input
+			(at 133.35 34.29 180)
+			(uuid "29910329-0568-4ff8-99ad-0ba8ef2cddbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_LDO_2" output
+			(at 165.1 36.83 0)
+			(uuid "6a74aa95-8220-453a-b84f-31bb2617f16d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_LDO_1" output
+			(at 165.1 27.94 0)
+			(uuid "60c09a6c-6904-42fb-b417-b924f8a2d9f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 80.01)
+		(size 31.75 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3607843137)
+		)
+		(uuid "f0a872a9-5b1c-4a5a-a5de-a418c10eeeec")
+		(property "Sheetname" "Current_Carry_Pair_2"
+			(at 133.35 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_Current_Carry_sch.kicad_sch"
+			(at 133.35 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PG_LDO_1" input
+			(at 133.35 88.9 180)
+			(uuid "76a0481e-c37b-4fc1-8047-8a586f5a73fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_1" input
+			(at 133.35 86.36 180)
+			(uuid "91eb7c58-a203-44b1-b6e2-d51f2ab3d482")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_1" input
+			(at 133.35 83.82 180)
+			(uuid "acf62af5-fb1e-4348-9814-73a769c3438c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_DIGIPOT" input
+			(at 133.35 116.84 180)
+			(uuid "3ce1f41a-4e58-46a4-9f9b-85e05679009b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_LDO_2" input
+			(at 133.35 95.25 180)
+			(uuid "6e8bf0cd-5e55-4f66-8e0e-0aaa3ac2ab9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_DIGIPOT" input
+			(at 133.35 119.38 180)
+			(uuid "0b655508-8ca3-4159-bb4f-690b531e66e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DIGIPOT" input
+			(at 133.35 101.6 180)
+			(uuid "21d816ea-86c4-41dc-9a84-86851bb1bdda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS_DIGIPOT" input
+			(at 133.35 104.14 180)
+			(uuid "2c5a5e17-a72a-484d-b3e7-584a15dfd864")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0_DIGIPOT" input
+			(at 133.35 113.03 180)
+			(uuid "227dd555-6a9b-4800-9f6b-93c2850f184f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_LDO_2" input
+			(at 133.35 97.79 180)
+			(uuid "bd983c63-a79a-4590-b4b3-8ff2001b1555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1_DIGIPOT" input
+			(at 133.35 110.49 180)
+			(uuid "106ffa89-aed6-4708-b49a-f522fbd08c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A2_DIGIPOT" input
+			(at 133.35 107.95 180)
+			(uuid "99978c24-1657-4730-ad26-1915dcab5d28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_LDO_2" input
+			(at 133.35 92.71 180)
+			(uuid "33169e86-1b46-4a6c-bdba-c8507bcc1c9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_LDO_2" output
+			(at 165.1 95.25 0)
+			(uuid "e3ba9000-e185-4e65-a1e8-899fefb572b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_LDO_1" output
+			(at 165.1 86.36 0)
+			(uuid "a079101e-b518-4097-a0d9-7f3e59269300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/cb51ec68-2de3-45ce-8f38-324046ba1ffd"
+					(page "3")
+				)
+			)
+		)
+	)
+)

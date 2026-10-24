@@ -1,0 +1,202 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ab4dfa4d-5ef3-44d8-81f6-241aa96b0320")
+	(paper "A4")
+	(lib_symbols)
+	(text "I have not add connection to 3.0V section \nsince i still have to consider where to \nput the extra digipot\n(delete if needed)\n"
+		(exclude_from_sim no)
+		(at 106.426 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6b9027c-ad7a-4834-af64-eaa157a74698")
+	)
+	(sheet
+		(at 128.27 17.78)
+		(size 25.4 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3019607843)
+		)
+		(uuid "2910a9e7-d236-4ac8-ad76-9e9737e7c098")
+		(property "Sheetname" "3.6V-HighPower"
+			(at 128.27 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Carry_Section.kicad_sch"
+			(at 128.27 44.3996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/fe367b49-c25e-4fd0-9c0d-f4edd091a126"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 58.42)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3019607843)
+		)
+		(uuid "9faa7775-6571-45dd-852e-c66bc09ed7be")
+		(property "Sheetname" "3.0V_Section"
+			(at 128.27 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.0V_Section.kicad_sch"
+			(at 128.27 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/fe367b49-c25e-4fd0-9c0d-f4edd091a126"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 143.51)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3019607843)
+		)
+		(uuid "cd9ff2d5-fb9e-4140-8ce0-873111b42097")
+		(property "Sheetname" "2.0V_Section"
+			(at 128.27 142.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2.0V_section_sch.kicad_sch"
+			(at 128.27 169.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/fe367b49-c25e-4fd0-9c0d-f4edd091a126"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 100.33)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3019607843)
+		)
+		(uuid "f4ea0c0c-3a27-447d-9510-2a3b1aefdefc")
+		(property "Sheetname" "2.6V_Section"
+			(at 128.27 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2.6V_Section.kicad_sch"
+			(at 128.27 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smart_DC_PowerSupply"
+				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8/fe367b49-c25e-4fd0-9c0d-f4edd091a126"
+					(page "3")
+				)
+			)
+		)
+	)
+)

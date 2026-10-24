@@ -1,0 +1,11 @@
+
+# KiCad lock and temporary files
+*.lck
+*-bak
+*~
+_autosave-*
+fp-info-cache
+
+# Temporary operating system files
+.DS_Store
+Thumbs.db
