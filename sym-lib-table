@@ -6,5 +6,7 @@
 	(lib (name "eFuse for electronic") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_TPS259620DDAR/KiCADv6/2026-10-22_16-19-23.kicad_sym") (options "") (descr ""))
 	(lib (name "Tiny 8-bit shift register") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_MC74HC595ADTR2G/KiCADv6/2026-10-22_16-26-20.kicad_sym") (options "") (descr ""))
 	(lib (name "Digital Potentiometer") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_TPL0102-100PWR/KiCADv6/2026-10-22_16-07-00.kicad_sym") (options "") (descr ""))
-	(lib (name "I2C Multiplexor") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_PCA9540BD-118/KiCADv6/2026-10-22_16-38-15.kicad_sym") (options "") (descr ""))
+	(lib (name "I2C 2-channel Multiplexor") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_PCA9540BD-118/KiCADv6/2026-10-22_16-38-15.kicad_sym") (options "") (descr ""))
+	(lib (name "Buck Converter") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_TPS62A03DRLR/KiCADv6/2026-09-30_12-44-20.kicad_sym") (options "") (descr ""))
+	(lib (name "I2C 4-channel Multiplexor") (type "KiCad") (uri "C:/Users/kayng/Documents/UWT/PROJECT/SchematicDesign/Ultimate_DC_PowerSupply/Imported_Components/ul_PCA9546APW-118/KiCADv6/2026-10-26_02-39-22.kicad_sym") (options "") (descr ""))
 )
