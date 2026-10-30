@@ -5841,7 +5841,7 @@
 		)
 	)
 	(sheet
-		(at 257.81 93.98)
+		(at 330.2 152.4)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5857,7 +5857,7 @@
 		)
 		(uuid "28c7a17a-692b-459d-8d05-6549bfe07315")
 		(property "Sheetname" "Switchable_Pins"
-			(at 257.81 93.2684 0)
+			(at 330.2 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5868,7 +5868,7 @@
 			)
 		)
 		(property "Sheetfile" "Switchable_Pins.kicad_sch"
-			(at 257.81 119.9646 0)
+			(at 330.2 178.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
