@@ -1033,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 365.76) (xy 265.43 365.76)
+			(xy 261.62 365.76) (xy 354.33 365.76)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1463,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 416.56) (xy 265.43 416.56)
+			(xy 261.62 416.56) (xy 354.33 416.56)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 424.18) (xy 265.43 424.18)
+			(xy 261.62 424.18) (xy 354.33 424.18)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 170.18) (xy 265.43 170.18)
+			(xy 261.62 170.18) (xy 354.33 170.18)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 271.78) (xy 265.43 271.78)
+			(xy 261.62 271.78) (xy 354.33 271.78)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 220.98) (xy 265.43 220.98)
+			(xy 261.62 220.98) (xy 354.33 220.98)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 162.56) (xy 265.43 162.56)
+			(xy 261.62 162.56) (xy 354.33 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 119.38) (xy 265.43 119.38)
+			(xy 261.62 119.38) (xy 354.33 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 474.98) (xy 265.43 474.98)
+			(xy 261.62 474.98) (xy 354.33 474.98)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 467.36) (xy 265.43 467.36)
+			(xy 261.62 467.36) (xy 354.33 467.36)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 314.96) (xy 265.43 314.96)
+			(xy 261.62 314.96) (xy 354.33 314.96)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 264.16) (xy 265.43 264.16)
+			(xy 261.62 264.16) (xy 354.33 264.16)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 213.36) (xy 265.43 213.36)
+			(xy 261.62 213.36) (xy 354.33 213.36)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 111.76) (xy 265.43 111.76)
+			(xy 261.62 111.76) (xy 354.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 373.38) (xy 265.43 373.38)
+			(xy 261.62 373.38) (xy 354.33 373.38)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 322.58) (xy 265.43 322.58)
+			(xy 261.62 322.58) (xy 354.33 322.58)
 		)
 		(stroke
 			(width 0)
@@ -3229,7 +3229,7 @@
 	)
 	(global_label "Pin38_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 373.38 0)
+		(at 354.33 373.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3239,7 +3239,7 @@
 		)
 		(uuid "19de9387-5378-4e09-9d92-fee5d7a828ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 373.38 0)
+			(at 387.1297 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3301,7 @@
 	)
 	(global_label "Pin46_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 467.36 0)
+		(at 354.33 467.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3311,7 +3311,7 @@
 		)
 		(uuid "331a4b3e-d02a-42d3-bc1f-1a372e58b783")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 467.36 0)
+			(at 387.1297 467.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3421,7 +3421,7 @@
 	)
 	(global_label "Pin11_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 213.36 0)
+		(at 354.33 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3431,7 +3431,7 @@
 		)
 		(uuid "4de4e550-9d5c-4117-ab83-23a598251f4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 213.36 0)
+			(at 387.1297 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,7 +3517,7 @@
 	)
 	(global_label "Pin9_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 162.56 0)
+		(at 354.33 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3527,7 +3527,7 @@
 		)
 		(uuid "58078f18-e5c0-4dd2-a70e-8db1227c8cbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.0202 162.56 0)
+			(at 385.9202 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,7 +3565,7 @@
 	)
 	(global_label "Pin17_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 264.16 0)
+		(at 354.33 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3575,7 +3575,7 @@
 		)
 		(uuid "65f2a372-4cfd-493d-a257-db1e93e081b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 264.16 0)
+			(at 387.1297 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3589,7 +3589,7 @@
 	)
 	(global_label "Pin22_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 271.78 0)
+		(at 354.33 271.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3599,7 +3599,7 @@
 		)
 		(uuid "684d891b-2cd3-49c4-813b-60b2e9627b03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 271.78 0)
+			(at 387.1297 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,7 +3613,7 @@
 	)
 	(global_label "Pin26_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 322.58 0)
+		(at 354.33 322.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3623,7 +3623,7 @@
 		)
 		(uuid "68abdab8-e5e3-48cf-bcbb-a6cbaea15335")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 322.58 0)
+			(at 387.1297 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3661,7 @@
 	)
 	(global_label "Pin44_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 416.56 0)
+		(at 354.33 416.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3671,7 +3671,7 @@
 		)
 		(uuid "8500b871-ead8-42e1-b664-5dee5687020f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 416.56 0)
+			(at 387.1297 416.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3709,7 @@
 	)
 	(global_label "Pin2_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 119.38 0)
+		(at 354.33 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3719,7 +3719,7 @@
 		)
 		(uuid "8b1e6b1d-2b53-4de9-a9e2-a48a0815aa29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.0202 119.38 0)
+			(at 385.9202 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3829,7 @@
 	)
 	(global_label "Pin37_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 365.76 0)
+		(at 354.33 365.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3839,7 +3839,7 @@
 		)
 		(uuid "9baf67bf-7079-4612-a2d9-b4b52f0af865")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 365.76 0)
+			(at 387.1297 365.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,7 +3949,7 @@
 	)
 	(global_label "Pin1_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 111.76 0)
+		(at 354.33 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3959,7 +3959,7 @@
 		)
 		(uuid "bf8fd638-eb08-4a23-a28e-8631d757e282")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.0202 111.76 0)
+			(at 385.9202 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,7 +3973,7 @@
 	)
 	(global_label "Pin10_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 170.18 0)
+		(at 354.33 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3983,7 +3983,7 @@
 		)
 		(uuid "c89cf3eb-389b-4917-a39f-68a29142845e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 170.18 0)
+			(at 387.1297 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +3997,7 @@
 	)
 	(global_label "Pin25_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 314.96 0)
+		(at 354.33 314.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4007,7 +4007,7 @@
 		)
 		(uuid "cb21d753-b1f5-4bda-8d4f-293656a6421e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 314.96 0)
+			(at 387.1297 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4117,7 +4117,7 @@
 	)
 	(global_label "Pin45_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 424.18 0)
+		(at 354.33 424.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4127,7 +4127,7 @@
 		)
 		(uuid "e1fea020-e464-48b5-9241-e6aebb184082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 424.18 0)
+			(at 387.1297 424.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4141,7 +4141,7 @@
 	)
 	(global_label "Pin16_Either0Vor2V_No_Current"
 		(shape output)
-		(at 265.43 220.98 0)
+		(at 354.33 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4151,7 +4151,7 @@
 		)
 		(uuid "e560418e-c3bf-4caf-8e81-2f1a0abef506")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2297 220.98 0)
+			(at 387.1297 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

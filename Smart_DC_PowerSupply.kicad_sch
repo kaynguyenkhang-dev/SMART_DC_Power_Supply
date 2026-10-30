@@ -5841,7 +5841,7 @@
 		)
 	)
 	(sheet
-		(at 330.2 152.4)
+		(at 229.87 106.68)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5857,7 +5857,7 @@
 		)
 		(uuid "28c7a17a-692b-459d-8d05-6549bfe07315")
 		(property "Sheetname" "Switchable_Pins"
-			(at 330.2 151.6884 0)
+			(at 229.87 105.9684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5868,7 +5868,7 @@
 			)
 		)
 		(property "Sheetfile" "Switchable_Pins.kicad_sch"
-			(at 330.2 178.3846 0)
+			(at 229.87 132.6646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5881,7 +5881,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(page "5")
+					(page "2")
 				)
 			)
 		)
@@ -5927,7 +5927,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(page "2")
+					(page "1")
 				)
 			)
 		)
@@ -5973,7 +5973,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(page "13")
+					(page "3")
 				)
 			)
 		)
