@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "36817632-35c8-4493-ab80-b9604012f482")
 	(paper "A2" portrait)
+	(title_block
+		(date "2026-10-30")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -972,13 +975,13 @@
 		)
 	)
 	(junction
-		(at 67.31 295.91)
+		(at 29.21 292.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c19ec99-3f8e-47cf-a356-c4d1ad545b77")
 	)
 	(no_connect
-		(at 121.92 288.29)
+		(at 83.82 284.48)
 		(uuid "c80b2249-75bd-4620-a03c-243e0740173a")
 	)
 	(wire
@@ -1123,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 462.28) (xy 205.74 462.28)
+			(xy 127 462.28) (xy 205.74 462.28)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 157.48) (xy 205.74 157.48)
+			(xy 127 157.48) (xy 205.74 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 259.08) (xy 205.74 259.08)
+			(xy 127 259.08) (xy 205.74 259.08)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 298.45) (xy 134.62 298.45)
+			(xy 83.82 294.64) (xy 96.52 294.64)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 288.29) (xy 71.12 288.29)
+			(xy 29.21 284.48) (xy 33.02 284.48)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 106.68) (xy 205.74 106.68)
+			(xy 127 106.68) (xy 205.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 293.37) (xy 67.31 293.37)
+			(xy 33.02 289.56) (xy 29.21 289.56)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 411.48) (xy 205.74 411.48)
+			(xy 127 411.48) (xy 205.74 411.48)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 295.91) (xy 67.31 295.91)
+			(xy 19.05 292.1) (xy 29.21 292.1)
 		)
 		(stroke
 			(width 0)
@@ -2123,7 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 360.68) (xy 205.74 360.68)
+			(xy 127 360.68) (xy 205.74 360.68)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 293.37) (xy 67.31 295.91)
+			(xy 29.21 289.56) (xy 29.21 292.1)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 309.88) (xy 205.74 309.88)
+			(xy 127 309.88) (xy 205.74 309.88)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 208.28) (xy 205.74 208.28)
+			(xy 127 208.28) (xy 205.74 208.28)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 295.91) (xy 71.12 295.91)
+			(xy 29.21 292.1) (xy 33.02 292.1)
 		)
 		(stroke
 			(width 0)
@@ -2801,16 +2804,6 @@
 		)
 		(uuid "fffd7217-02b4-4760-9500-3033c856b781")
 	)
-	(label "3.3V_eFuse"
-		(at 187.96 309.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "060a5afa-9bda-4929-8ade-aa6d1078740b")
-	)
 	(label "A0_DIGIPOT"
 		(at 171.45 180.34 0)
 		(effects
@@ -2871,16 +2864,6 @@
 		)
 		(uuid "45678df2-2d8d-4117-bf64-2b8d6cec95e4")
 	)
-	(label "3.3V_eFuse"
-		(at 187.96 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e39f095-f73d-46a9-b0f3-af8641d37dd9")
-	)
 	(label "A1_DIGIPOT"
 		(at 171.45 386.08 0)
 		(effects
@@ -2890,26 +2873,6 @@
 			(justify left bottom)
 		)
 		(uuid "55ce2103-6471-450d-bd43-efcb26ed2e77")
-	)
-	(label "3.3V_eFuse"
-		(at 187.96 462.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5678ac79-9c25-4c49-8a69-1687b068a09d")
-	)
-	(label "3.3V_eFuse"
-		(at 187.96 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5eaab4ae-ba2d-4977-bf33-65d76f70769a")
 	)
 	(label "A2_DIGIPOT"
 		(at 171.45 388.62 0)
@@ -2992,7 +2955,7 @@
 		(uuid "a4cd62a0-c866-41b3-bcbf-b1ad78ee33b0")
 	)
 	(label "3.3V_eFuse"
-		(at 134.62 298.45 180)
+		(at 96.52 294.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,16 +2983,6 @@
 			(justify left bottom)
 		)
 		(uuid "b69c38bc-f5c1-413c-a6c8-c00b5a3000f7")
-	)
-	(label "3.3V_eFuse"
-		(at 187.96 411.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd8119d7-f63a-442e-b7fe-d0355267c37c")
 	)
 	(label "A2_DIGIPOT"
 		(at 171.45 337.82 0)
@@ -3061,26 +3014,6 @@
 		)
 		(uuid "d02272a6-34d3-4591-87f7-e12ac472ba7e")
 	)
-	(label "3.3V_eFuse"
-		(at 187.96 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3013d7a-93eb-45a0-ba96-b656cb4115ab")
-	)
-	(label "3.3V_eFuse"
-		(at 187.96 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddc1a0f2-05dd-4038-8c92-1229a28ee457")
-	)
 	(label "A2_DIGIPOT"
 		(at 171.45 236.22 0)
 		(effects
@@ -3090,16 +3023,6 @@
 			(justify left bottom)
 		)
 		(uuid "e1210c63-1573-4801-b5c1-5f834a79c0b6")
-	)
-	(label "3.3V_eFuse"
-		(at 187.96 360.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea169fcd-e524-42bd-ac12-ea504e0e6fb8")
 	)
 	(label "A0_DIGIPOT"
 		(at 171.45 434.34 0)
@@ -3131,7 +3054,7 @@
 		)
 		(uuid "fcd706c8-8288-4a48-a81c-e13f5471f974")
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 309.88 0)
 		(fields_autoplaced yes)
@@ -3179,7 +3102,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 208.28 0)
 		(fields_autoplaced yes)
@@ -3275,6 +3198,30 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 127 462.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "201f2f9c-c6d8-42a2-8b3a-30bdfae3359a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SCL_Switchable_Pins"
 		(shape input)
 		(at 171.45 472.44 180)
@@ -3288,6 +3235,30 @@
 		(uuid "2148a257-7a64-4b83-81a8-c30a58c16859")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.8102 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 127 309.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27fdfadb-57fa-4f15-a7e3-5238531e5c7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +3318,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 215.9 0)
 		(fields_autoplaced yes)
@@ -3395,7 +3366,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 114.3 0)
 		(fields_autoplaced yes)
@@ -3443,7 +3414,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 368.3 0)
 		(fields_autoplaced yes)
@@ -3464,6 +3435,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 127 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51be05cb-5c8f-46a5-8ba8-816b4ae69c87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3491,7 +3486,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 157.48 0)
 		(fields_autoplaced yes)
@@ -3541,7 +3536,31 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 57.15 295.91 180)
+		(at 127 208.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64812db8-d8fc-4b16-a6d0-a2aa5e2abc41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 19.05 292.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3551,7 +3570,7 @@
 		)
 		(uuid "65a53a1e-ae1a-4562-9bc0-9aba4ce19c30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0524 295.91 0)
+			(at 11.9524 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,6 +3654,30 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 127 259.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68be7cae-a65d-4924-b3bb-1ca869e5deda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SCL_Switchable_Pins"
 		(shape input)
 		(at 171.45 421.64 180)
@@ -3683,7 +3726,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 462.28 0)
 		(fields_autoplaced yes)
@@ -3731,7 +3774,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 419.1 0)
 		(fields_autoplaced yes)
@@ -3755,7 +3798,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 469.9 0)
 		(fields_autoplaced yes)
@@ -3779,7 +3822,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 259.08 0)
 		(fields_autoplaced yes)
@@ -3851,7 +3894,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 317.5 0)
 		(fields_autoplaced yes)
@@ -3875,7 +3918,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 106.68 0)
 		(fields_autoplaced yes)
@@ -3947,6 +3990,54 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 127 411.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5a16755-4bad-4a31-b49f-ed0e6b21cef6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 127 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5be25c3-8099-407b-8420-b7c0c96c1eb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Pin1_Either0Vor2V_No_Current"
 		(shape output)
 		(at 354.33 111.76 0)
@@ -3968,6 +4059,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 127 360.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c04d83d0-6ac8-436b-a0a4-16261a6afb60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.4919 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -4019,7 +4134,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 165.1 0)
 		(fields_autoplaced yes)
@@ -4091,7 +4206,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 360.68 0)
 		(fields_autoplaced yes)
@@ -4211,7 +4326,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 266.7 0)
 		(fields_autoplaced yes)
@@ -4259,7 +4374,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "3.3V_eFuse"
 		(shape input)
 		(at 326.39 411.48 0)
 		(fields_autoplaced yes)
@@ -5121,7 +5236,7 @@
 	)
 	(symbol
 		(lib_id "eFuse for electronic:TPS259620DDAR")
-		(at 71.12 288.29 0)
+		(at 33.02 284.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5132,7 +5247,7 @@
 		(fields_autoplaced yes)
 		(uuid "23167c99-6029-4821-9f26-cacf9a232838")
 		(property "Reference" "U3_8"
-			(at 96.52 278.13 0)
+			(at 58.42 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5142,7 +5257,7 @@
 			)
 		)
 		(property "Value" "TPS259620DDAR"
-			(at 96.52 280.67 0)
+			(at 58.42 276.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5152,7 +5267,7 @@
 			)
 		)
 		(property "Footprint" "SOIC_20DDAR_TEX"
-			(at 71.12 288.29 0)
+			(at 33.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5164,7 +5279,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps2596"
-			(at 71.12 288.29 0)
+			(at 33.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5176,7 +5291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 288.29 0)
+			(at 33.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +10242,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 288.29 270)
+		(at 29.21 284.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10138,7 +10253,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2fcefc7-bd27-48fe-800d-4f0c1e3b564d")
 		(property "Reference" "#PWR096"
-			(at 60.96 288.29 0)
+			(at 22.86 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +10264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 288.2899 90)
+			(at 25.4 284.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10160,7 +10275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 288.29 0)
+			(at 29.21 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,7 +10286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 288.29 0)
+			(at 29.21 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10182,7 +10297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 288.29 0)
+			(at 29.21 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
