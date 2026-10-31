@@ -673,25 +673,13 @@
         "uuid": "eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
       }
     ],
-    "used_designators": "U1-12,J1,R1-82,U2_1-31,#PWR1-183,U1_1-21,U3_1-15,U4_1-2,U5_1-2,D1,U0_1,U6_1",
+    "used_designators": "U1-12,J1,R1-128,U2_1-48,#PWR1-294,U1_1-30,U3_1-17,U4_1-2,U5_1-2,D1,U0_1,U6_1",
     "variants": []
   },
   "sheets": [
     [
       "eed9697a-d7f2-404b-b4ca-1333beb8d3f8",
       "Root"
-    ],
-    [
-      "ce9b7044-00f4-4865-bc3d-da87118e7adb",
-      "Non-Current_Carrying_Pins"
-    ],
-    [
-      "28c7a17a-692b-459d-8d05-6549bfe07315",
-      "Switchable_Pins"
-    ],
-    [
-      "fe367b49-c25e-4fd0-9c0d-f4edd091a126",
-      "Current_Carrying_Pins"
     ],
     [
       "5f8be8e7-e319-4672-8e98-4104041515f1",

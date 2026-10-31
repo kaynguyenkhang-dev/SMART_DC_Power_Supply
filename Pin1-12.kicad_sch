@@ -1418,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 144.78) (xy 251.46 144.78)
+			(xy 294.64 139.7) (xy 251.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 139.7) (xy 330.2 139.7)
+			(xy 251.46 144.78) (xy 330.2 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2608,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 144.78) (xy 303.53 144.78)
+			(xy 302.26 139.7) (xy 303.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3304,7 +3304,7 @@
 	)
 	(global_label "3.3V_eFuse"
 		(shape input)
-		(at 303.53 144.78 0)
+		(at 303.53 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3314,7 +3314,7 @@
 		)
 		(uuid "23d93078-ccca-495e-be57-a26aed7e4248")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.6276 144.78 0)
+			(at 310.6276 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3328,7 +3328,7 @@
 	)
 	(global_label "Pin4_2.0V_No_Current"
 		(shape output)
-		(at 330.2 139.7 0)
+		(at 330.2 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3338,7 +3338,7 @@
 		)
 		(uuid "240f7d33-1ae7-4dfe-a392-e71b8cd45778")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.8679 139.7 0)
+			(at 353.8679 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5433,7 +5433,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 298.45 144.78 90)
+		(at 298.45 139.7 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5442,10 +5442,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4753d045-8714-4d8c-9149-fc806182702d")
 		(property "Reference" "R71"
-			(at 298.45 151.13 90)
+			(at 298.45 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5455,7 +5454,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 298.45 148.59 90)
+			(at 298.45 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5465,7 +5464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 143.002 90)
+			(at 298.45 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5476,7 +5475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 144.78 0)
+			(at 298.45 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5487,7 +5486,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 298.45 144.78 0)
+			(at 298.45 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5682,7 +5681,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a3ba6e8-9ea6-4eca-8a4c-b72157daca92")
 		(property "Reference" "R69"
 			(at 283.21 148.59 90)
@@ -8143,7 +8141,6 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 287.02 142.24 90)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8165,7 +8162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 290.83 142.2401 90)
+			(at 290.83 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
