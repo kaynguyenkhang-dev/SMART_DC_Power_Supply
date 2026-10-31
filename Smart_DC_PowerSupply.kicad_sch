@@ -4901,7 +4901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb8b4b6-e643-4dba-a278-d5fcaecd1ac0")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR014"
 			(at 143.51 354.33 0)
 			(hide yes)
 			(show_name no)
@@ -4962,7 +4962,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0131")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4980,7 +4980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bd69840-224b-498e-976d-982c8ad99db7")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR04"
 			(at 214.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5041,7 +5041,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0162")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5307,7 +5307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2477dd54-bc9b-4125-8d27-28a94d6d7a88")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR012"
 			(at 85.09 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -5368,7 +5368,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR021")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5386,7 +5386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eb10465-f30d-4b06-ae02-7f25802adbcf")
-		(property "Reference" "U3_10"
+		(property "Reference" "U3_1"
 			(at 246.38 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5471,7 +5471,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "U3_10")
+					(reference "U3_1")
 					(unit 1)
 				)
 			)
@@ -5489,7 +5489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "368ca1b4-47b6-4122-a624-d0e800ae3955")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 289.56 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5550,7 +5550,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5568,7 +5568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d3a8bf2-ac03-461a-8c7e-85814ea5b0e0")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR016"
 			(at 85.09 361.95 0)
 			(hide yes)
 			(show_name no)
@@ -5629,7 +5629,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0132")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5647,7 +5647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f2593a4-4060-460a-b6a3-f84176654ea4")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR017"
 			(at 143.51 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -5708,7 +5708,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0129")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f6d06fb-8fc3-4ef7-bd0b-07fefd490b52")
-		(property "Reference" "U3_11"
+		(property "Reference" "U3_2"
 			(at 246.38 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5811,7 +5811,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "U3_11")
+					(reference "U3_2")
 					(unit 1)
 				)
 			)
@@ -5907,7 +5907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5276872b-3131-4bfd-8565-4666dfe9416f")
-		(property "Reference" "U3_12"
+		(property "Reference" "U3_3"
 			(at 246.38 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5992,7 +5992,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "U3_12")
+					(reference "U3_3")
 					(unit 1)
 				)
 			)
@@ -6010,7 +6010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567f2468-69f1-4be5-8d7b-37895e192874")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR011"
 			(at 149.86 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -6070,7 +6070,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR022")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6089,7 +6089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577729e6-c87d-4295-a543-33faafdafff9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 212.09 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -6150,7 +6150,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6168,7 +6168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650017dd-145a-44af-ae08-8d3057f3c34b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR013"
 			(at 149.86 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -6228,7 +6228,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR023")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6246,7 +6246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "687de874-630a-4c75-8a7e-144b11ed2634")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR05"
 			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6307,7 +6307,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0163")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6326,7 +6326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754cd35f-5f78-41e5-84c7-ab5bda48fc56")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 212.09 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -6387,7 +6387,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d5f6296-4a19-4bcf-9222-8f752d44377b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR010"
 			(at 85.09 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -6466,7 +6466,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR020")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6608,7 +6608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d800923-dca9-46a0-b13b-012ccda6acb7")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR01"
 			(at 214.63 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6669,7 +6669,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0161")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6885,7 +6885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc180e7f-860f-4f0f-b1f9-3b3c53d09dec")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR09"
 			(at 298.45 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -6946,7 +6946,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0164")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7058,7 +7058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d3b100-0fc7-4fdd-893f-8dc6fbc9dd2e")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR015"
 			(at 143.51 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -7119,7 +7119,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR0130")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7137,7 +7137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3b58b3b-2cb2-466d-8ee1-da56746e6326")
-		(property "Reference" "U3_13"
+		(property "Reference" "U3_4"
 			(at 334.01 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +7222,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "U3_13")
+					(reference "U3_4")
 					(unit 1)
 				)
 			)
@@ -7240,7 +7240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c7a135-2b21-4ae7-a919-9d51b8541f52")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 63.5 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7300,7 +7300,7 @@
 		(instances
 			(project "Smart_DC_PowerSupply"
 				(path "/eed9697a-d7f2-404b-b4ca-1333beb8d3f8"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
